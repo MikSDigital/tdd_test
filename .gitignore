@@ -1,0 +1,127 @@
+# Created by .ignore support plugin (hsz.mobi)
+### SugarCRM template
+## SugarCRM
+# Ignore custom .htaccess stuff.
+/.htaccess
+# Ignore the cache directory completely.
+# This will break the current behaviour. Which was often leading to
+# the misuse of the repository as backup replacement.
+# For development the cache directory can be safely ignored and
+# therefore it is ignored.
+/cache/
+!/cache/index.html
+# Ignore some files and directories from the custom directory.
+/custom/history/
+/custom/modulebuilder/
+/custom/working/
+/custom/modules/*/Ext/
+/custom/application/Ext/
+# Custom configuration should also be ignored.
+/config.php
+/config_override.php
+# The silent upgrade scripts aren't needed.
+/silentUpgrade*.php
+# Logs files can safely be ignored.
+*.log
+# Ignore the new upload directories.
+/upload/
+!/upload/index.html
+/upload_backup/
+### Symfony template
+# Cache and logs (Symfony2)
+/app/cache/*
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+
+# Email spool folder
+/app/spool/*
+
+# Cache, session files and logs (Symfony3)
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+
+# Managed by Composer
+/app/bootstrap.php.cache
+/var/bootstrap.php.cache
+/bin/*
+!bin/console
+!bin/symfony_requirements
+/vendor/
+
+# Assets and user uploads
+/web/bundles/
+/web/uploads/
+
+
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+# Backup entities generated with doctrine:generate:entities command
+*/Entity/*~
+### CodeIgniter template
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+### FuelPHP template
+# the composer package lock file and install directory
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# /composer.lock
+/fuel/vendor
+
+# the fuelphp document
+/docs/
+
+# you may install these packages with `oil package`.
+# http://fuelphp.com/docs/packages/oil/package.html
+# /fuel/packages/auth/
+# /fuel/packages/email/
+# /fuel/packages/oil/
+# /fuel/packages/orm/
+# /fuel/packages/parser/
+
+# dynamically generated files
+/fuel/app/logs/*/*/*
+/fuel/app/cache/*/*
+/fuel/app/config/crypt.php
+### CakePHP template
+# CakePHP 3
+
+/vendor/*
+/config/app.php
+
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+
+/logs/*
+!/logs/empty
+
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*

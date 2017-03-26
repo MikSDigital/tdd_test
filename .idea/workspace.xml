@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91791940-9b35-460b-9efa-bc3a87b808bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="$PROJECT_DIR$/app/Models/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/UserTest.php" afterPath="$PROJECT_DIR$/tests/unit/UserTest.php" />
     </list>
     <ignored path="tdd.iws" />
@@ -29,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/tests/unit/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="53" column="58" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="58" />
+              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -58,8 +57,8 @@
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/tests/unit/SampleTest.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/tests/unit/UserTest.php" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
+        <option value="$PROJECT_DIR$/tests/unit/UserTest.php" />
       </list>
     </option>
   </component>
@@ -237,7 +236,7 @@
       <workItem from="1490534084319" duration="49000" />
       <workItem from="1490534148367" duration="22000" />
       <workItem from="1490534179075" duration="96000" />
-      <workItem from="1490534298229" duration="7016000" />
+      <workItem from="1490534298229" duration="8542000" />
     </task>
     <task id="LOCAL-00001" summary="Two basic tests added">
       <created>1490458778341</created>
@@ -281,11 +280,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490541182245</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="testEmailVariablesContainCorrectValues added">
+      <created>1490541908967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490541908967</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15319000" />
+    <option name="totallyTimeSpent" value="16845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
@@ -349,7 +355,8 @@
     <MESSAGE value=".idea folder removed from repo" />
     <MESSAGE value="testFirstAndLastNameAreTrimmed added" />
     <MESSAGE value="testEmailAddressCanBeSet added" />
-    <option name="LAST_COMMIT_MESSAGE" value="testEmailAddressCanBeSet added" />
+    <MESSAGE value="testEmailVariablesContainCorrectValues added" />
+    <option name="LAST_COMMIT_MESSAGE" value="testEmailVariablesContainCorrectValues added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -545,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/tests/unit/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="53" column="58" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="58" />
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding />
         </state>
       </provider>

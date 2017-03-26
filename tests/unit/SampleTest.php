@@ -1,8 +1,8 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
+//use PHPUnit\Framework\TestCase;
 
-class SampleTest extends TestCase
+class SampleTest extends \PHPUnit\Framework\TestCase
 {
     public function testTrueAssertsToTrue()
     {

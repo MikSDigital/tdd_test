@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91791940-9b35-460b-9efa-bc3a87b808bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/tdd.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
     </list>
     <ignored path="tdd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -275,7 +278,7 @@
       <workItem from="1490534084319" duration="49000" />
       <workItem from="1490534148367" duration="22000" />
       <workItem from="1490534179075" duration="96000" />
-      <workItem from="1490534298229" duration="2895000" />
+      <workItem from="1490534298229" duration="2919000" />
     </task>
     <task id="LOCAL-00001" summary="Two basic tests added">
       <created>1490458778341</created>
@@ -298,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490537116112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".idea folder removed from repo">
+      <created>1490537210640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1490537210640</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11198000" />
+    <option name="totallyTimeSpent" value="11222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
@@ -363,7 +373,8 @@
     <MESSAGE value="UserTest added" />
     <MESSAGE value="Typo fixed in UserTest class" />
     <MESSAGE value=".gitignore fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore fixed" />
+    <MESSAGE value=".idea folder removed from repo" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea folder removed from repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

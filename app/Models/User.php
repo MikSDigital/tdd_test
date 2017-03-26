@@ -4,8 +4,25 @@ namespace App\Models;
 
 class User
 {
-    public $first_name;
-    public $last_name;
+    protected $first_name;
+    protected $last_name;
+    public $email;
+
+    /**
+     * @return mixed
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
+     * @param mixed $email
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
 
     /**
      * @return mixed
@@ -20,17 +37,19 @@ class User
      */
     public function setLastName($last_name)
     {
-        $this->last_name = $last_name;
+        $this->last_name = trim($last_name);
     }
+
+    public function setFirstName($firstname) {
+
+        $this->first_name = trim($firstname);
+
+    }
+
     public function getFirstName() {
 
 //        return 'Billy';
         return $this->first_name;
-    }
-    public function setFirstName($firstname) {
-
-        $this->first_name = $firstname;
-
     }
 
     public function getFullName() {

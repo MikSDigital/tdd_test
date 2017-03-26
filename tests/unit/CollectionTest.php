@@ -9,4 +9,26 @@ class CollectionTest extends PHPUnit\Framework\TestCase
 
         $this->assertEmpty($collection->get());
     }
+
+    /** @test */
+    public function count_is_correct_for_items_passed_in()
+    {
+        $collection = new App\Support\Collection([
+            'one', 'two', 'three'
+        ]);
+
+        $this->assertEquals(3, $collection->count());
+    }
+
+    /** @test */
+    public function items_returned_match_items_passed_in()
+    {
+        $collection = new App\Support\Collection([
+            'one', 'two', 'three', 4
+        ]);
+
+        $this->assertCount(4, $collection->get());
+        $this->assertEquals($collection->get()[0], 'one');
+        $this->assertEquals($collection->get()[3], 4);
+    }
 }

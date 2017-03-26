@@ -3,6 +3,13 @@
 
 class UserTest extends \PHPUnit\Framework\TestCase
 {
+//    protected $user;
+//
+//    public function setUp()
+//    {
+//        $this->user = new App\Models\User();  // runs before each test in class
+//    }
+
     public function testThatWeCanGetTheFirstName()
     {
 

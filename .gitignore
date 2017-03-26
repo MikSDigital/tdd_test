@@ -61,7 +61,7 @@
 /web/bundles/
 /web/uploads/
 
-
+.idea
 # Build data
 /build/
 
@@ -101,9 +101,6 @@
 /fuel/app/config/crypt.php
 ### CakePHP template
 # CakePHP 3
-
-/vendor/*
-/config/app.php
 
 /tmp/cache/models/*
 !/tmp/cache/models/empty
